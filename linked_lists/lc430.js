@@ -34,7 +34,6 @@ var flatten = function(head) {
                     nextNode.prev = lastChild;
                 }
 
-                lastNode = lastChild; // Update last processed node
             }
 
             lastNode = pt; // Update last processed node even if there's no child
